@@ -170,11 +170,38 @@ footer{
     
 }
 
+.textcard{
+    background-color: black;
+}
+
 .down{
     color: white;
     max-width: 80vw;
-    margin:50px  auto;
+    margin: auto;
     font-size: x-large;
     font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
+.tccard{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.tcard{
+
+    border: 1px solid black;
+    width: 300px;
+    height: 230px;
+    border-radius: 12px;
+    background-color: rgba(71, 2, 59, 0.332);
+    padding: 12px 8px;
+    color: white;
+}
+
+.tcard h2{
+    margin-bottom: 20px;
+}
