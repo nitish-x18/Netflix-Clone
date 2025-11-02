@@ -12,7 +12,7 @@
     background-image: url('assets/images/bgimage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 }
 
@@ -251,4 +251,45 @@ footer{
 
 .tcard h2{
     margin-bottom: 20px;
+}
+
+.questioncontainer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.que{
+    /* background-color: black; */
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    
+}
+
+.que h2{
+    text-align: left;
+}
+
+.quecard{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.lastest{
+    height: 28vh;
+    background-color: black;
 }
