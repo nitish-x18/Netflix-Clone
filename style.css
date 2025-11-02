@@ -149,6 +149,7 @@ nav img{
 }
 
 input{
+    color: white;
     width: 350px;
     height: 60px;
     border-radius: 5px;
@@ -225,7 +226,6 @@ footer{
     margin: auto;
     width: 180px;
     height: 250px;
-    border: 1px solid black;
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
@@ -281,8 +281,6 @@ footer{
 }
 
 .tcard{
-
-    border: 1px solid black;
     max-width: 300px;
     flex: 1 1 250px;
     height: 230px;
