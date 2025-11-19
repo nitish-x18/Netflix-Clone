@@ -365,6 +365,12 @@ footer {
     margin: auto;
 }
 
+/* @media (max-width: 768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
 .iii {
     padding: 50px 0;
     max-width: 80vw;
