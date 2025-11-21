@@ -353,6 +353,11 @@ footer {
     cursor: pointer;
 }
 
+.quecard:hover {
+    background-color: rgb(31, 30, 30);
+    transition: all 1s ease-out;
+}
+
 .FAQ {
     color: rgb(198, 195, 195);
     background-color: black;
