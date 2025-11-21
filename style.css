@@ -185,6 +185,10 @@ input {
     cursor: pointer;
 }
 
+.getstart svg{
+    vertical-align: middle;
+}
+
 @media (max-width: 600px) {
     .content {
         padding: 0 3%;
@@ -393,7 +397,7 @@ footer {
 }
 
 .member button{
-    width: 300px;
+    max-width: 300px;
 }
 
 .FAQ {
