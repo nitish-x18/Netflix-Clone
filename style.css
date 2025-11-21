@@ -358,6 +358,44 @@ footer {
     transition: all 1s ease-out;
 }
 
+.membership{
+    background-color: black;  
+}
+
+.mem{
+    display: flex;
+}
+
+.membership p{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 70px;
+    font-weight: bold;
+}
+
+.member{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px 0;
+    
+
+}
+
+.member input{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    width: 500px;
+}
+
+.member button{
+    width: 300px;
+}
+
 .FAQ {
     color: rgb(198, 195, 195);
     background-color: black;
